@@ -6,7 +6,7 @@
 
 var proxy = require('express-http-proxy');
 var url = require('url')
-
+var mytest=12312312;
 module.exports = function (proxyHost, proxyPort) {
 
   return proxy(proxyHost, {
